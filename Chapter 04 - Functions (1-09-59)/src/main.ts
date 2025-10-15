@@ -15,11 +15,11 @@ type userID = stringOrNumber;
 
 // Literal types
 
-let Myname: "Dave";
+let Mynames: "Dave";
 
-let userName: "Dave" | "John" | "Amy";
+let userNames: "Dave" | "John" | "Amy";
 
-userName = "Dave";
+userNames = "Dave";
 
 const add = (a: number, b: number) => {
   return a + b;
@@ -37,8 +37,8 @@ let subtract = function (c: number, d: number): number {
   return c - d;
 };
 
-type mathFunction = (a: number, b: number) => number
+type mathFunction = (a: number, b: number) => number;
 
-let multiply: mathFunction = function (c,d) {
-  return (c * d)
-}  
+let multiply: mathFunction = function (c, d) {
+  return c * d;
+};
