@@ -42,3 +42,5 @@ type mathFunction = (a: number, b: number) => number;
 let multiply: mathFunction = function (c, d) {
   return c * d;
 };
+
+// You will face many problem. But the people who stick with that problem and make it work. Until you solve the problem 
