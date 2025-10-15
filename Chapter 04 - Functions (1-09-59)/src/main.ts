@@ -41,4 +41,4 @@ type mathFunction = (a: number, b: number) => number
 
 let multiply: mathFunction = function (c,d) {
   return (c * d)
-}
+}  
