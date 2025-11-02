@@ -13,5 +13,8 @@
 
 type User = {
     readonly _id: number,
-    
+    name : string,
+    email: string,
+    isActive: boolean,
+    creditCardNum ?: number
 }
