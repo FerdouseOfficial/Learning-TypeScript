@@ -1,46 +1,47 @@
-// Type Aliases
-type stringOrNumber = string | number;
+// // Type Aliases
+// type stringOrNumber = string | number;
 
-type stringOrNumberArray = (string | number)[];
+// type stringOrNumberArray = (string | number)[];
 
-interface Gutarist {
-  name: string;
-  active: boolean;
-  albums: stringOrNumberArray;
-}
+// interface Gutarist {
+//   name: string;
+//   active: boolean;
+//   albums: stringOrNumberArray;
+// }
 
-type userID = stringOrNumber;
+// type userID = stringOrNumber;
 
-// interface mijanId = stringOrNumber
+// // interface mijanId = stringOrNumber
 
-// Literal types
+// // Literal types
 
-let Mynames: "Dave";
+// let Mynames: "Dave";
 
-let userNames: "Dave" | "John" | "Amy";
+// let userNames: "Dave" | "John" | "Amy";
 
-userNames = "Dave";
+// userNames = "Dave";
 
-const add = (a: number, b: number) => {
-  return a + b;
-};
+// const add = (a: number, b: number) => {
+//   return a + b;
+// };
 
-const logMsg = (message: any) => {
-  console.log(message);
-};
+// const logMsg = (message: any) => {
+//   console.log(message);
+// };
 
-logMsg("hello");
-logMsg(add(3, 2));
-// logMsg(add('2', 3))
+// logMsg("hello");
+// logMsg(add(3, 2));
+// // logMsg(add('2', 3))
 
-let subtract = function (c: number, d: number): number {
-  return c - d;
-};
+// let subtract = function (c: number, d: number): number {
+//   return c - d;
+// };
 
-type mathFunction = (a: number, b: number) => number;
+// type mathFunction = (a: number, b: number) => number;
 
-let multiply: mathFunction = function (c, d) {
-  return c * d;
-};
+// let multiply: mathFunction = function (c, d) {
+//   return c * d;
+// };
 
 // You will face many problem. But the people who stick with that problem and make it work. Until you solve the problem 
+
