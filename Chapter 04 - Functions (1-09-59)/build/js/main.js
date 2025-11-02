@@ -30,9 +30,12 @@
 //   return c * d;
 // };
 // You will face many problem. But the people who stick with that problem and make it work. Until you solve the problem 
+// here is the better way to write funciton all will be provide here okay:- 
+//here is 1 way!
 // function getValue(myVal: number) {
 //   if(myVal > 5){
 //     return true;
 //   }
 //   return "200 OK";
 // }
+//here is another way
