@@ -45,3 +45,9 @@
 
 // You will face many problem. But the people who stick with that problem and make it work. Until you solve the problem 
 
+function getValue(myVal: number) {
+  if(myVal > 5){
+    return true;
+  }
+  return "200 OK";
+}
