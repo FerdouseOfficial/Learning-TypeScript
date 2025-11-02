@@ -11,10 +11,25 @@
 
 // here is the example. okay.
 
+/**
+ * Represents a user in the system.
+ * 
+ * The `_id` property is marked as `readonly`, meaning it cannot be modified after the user is created.
+ * The `creditCardNum` property is optional, indicated by the `?` symbol, meaning it may or may not be present on a user object.
+ */
 type User = {
-    readonly _id: number,
+    readonly _id: string,
     name : string,
     email: string,
     isActive: boolean,
     creditCardNum ?: number
 }
+
+let myUser: User = {
+    _id: "1234",
+    name: "h",
+    email: "h@h.com",
+    isActive: true,
+}
+
+//  I have use the readonly and ? concept actually we use readonly for that no one can change the value of it. and by using ? this we say that this is a optional thing"
