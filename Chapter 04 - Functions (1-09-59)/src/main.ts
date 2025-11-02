@@ -75,3 +75,10 @@ function consoleError(errmsg: string): void{
   console.log(errmsg);
   
 }
+/// way of handle error
+
+// learn and read about never type in TypeScirpt. Try to read documentation of typescript don't just only see vide. By that way you will be a very good developer. okay.
+function handleError(errmsg: string): never {
+  throw new Error(errmsg);
+  
+}
