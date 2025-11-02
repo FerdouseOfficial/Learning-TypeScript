@@ -1,0 +1,2 @@
+"use strict";
+// her we will practiceth READONLY and optional okay.
