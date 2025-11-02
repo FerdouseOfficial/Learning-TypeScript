@@ -31,11 +31,24 @@
 // };
 // You will face many problem. But the people who stick with that problem and make it work. Until you solve the problem 
 // here is the better way to write funciton all will be provide here okay:- 
-//here is 1 way!
+//here is 1 way! writing in general way the typical way of wriitng function
 // function getValue(myVal: number) {
 //   if(myVal > 5){
 //     return true;
 //   }
 //   return "200 OK";
 // }
-//here is another way
+//here is another way :- Writing arrow funciton.
+// const getHello = (s: string): string => {
+//   return "";
+// }
+// const heros = ["thor", "spiderman", "ironman"];
+// // const heros = [1, 2, 3]
+// heros.map((heros) => {
+//   return `hero is ${heros}`
+// })
+// its a good practice that always write what the function will return void or return tell it explicitly okay.
+// if it declares return then set the function return type as return. But if the function return void then then the funciton return type as void; just like that okay.
+function consoleError(errmsg) {
+    console.log(errmsg);
+}
