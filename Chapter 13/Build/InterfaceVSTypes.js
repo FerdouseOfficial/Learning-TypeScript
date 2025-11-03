@@ -1,7 +1,7 @@
 "use strict";
-// If you want to add more thing inside the user we can do that in the same user interface but if we want we can do that in another interface with same name user okay. 
-// lets see how we can do that // 
 let hitesh = { dbId: 22, name: "Hc", id: 1,
+    githubToken: "github",
+    role: "admin", // just like that we can do that
     startTrial: () => {
         return "Fuck Off Man";
     }, getCoupon: (name, value) => {
@@ -9,3 +9,4 @@ let hitesh = { dbId: 22, name: "Hc", id: 1,
     }
 };
 hitesh.email = "WakaWakkaOOOO";
+/// Always if you have problem make sure to read in the Official Documentation
