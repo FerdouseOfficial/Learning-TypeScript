@@ -21,7 +21,7 @@ const enum SeatChoice {
     WINDOW= "window", 
     FOURTH= "fourth" 
 }
- 
+
 
 // there is a lot of way you can do tha
 
