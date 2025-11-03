@@ -1,0 +1,1 @@
+// Learning Union Type in TypeScript //
