@@ -23,4 +23,4 @@ const newUser: user = [112, "example.@google.com"]
 
 newUser[1] = "hc.com" // this is the bad behavior or the bug of the TypeScript tuple. we can change value inside the tuple. that's the minuse point.
 
-// you can use push() pop() shift() unshift() splice() all the array method in it there will be no problem that's the bug of the tuples. That's the bad side of it . I think you understand it.
+// you can use push() pop() shift() unshift() splice() all the array method in it there will be no problem that's the bug of the tuples. That's the bad side of it . I think you understand it. 
