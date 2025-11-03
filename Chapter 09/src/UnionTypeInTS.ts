@@ -38,6 +38,6 @@ let pi: 3.14 = 3.14 // by this you can assign the direct value its can't be chan
 // here is the example
 
 let seatAllotment: "aisle" | "middle" | "window"; // by writing this you can only access or write this 3 value. You can't over write it .
-
+ 
 seatAllotment = "aisle";
 // seatAllotment = "crew" // You can't do that because the crew sit is only for he crew not for general person. just kidding. You cannot access this because the crew doesn't exist inside the seatAllotment
