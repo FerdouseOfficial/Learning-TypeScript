@@ -11,8 +11,10 @@
 class user {
     email;
     name;
+    city = "Jaipur";
     constructor(email, name) {
         this.email = email;
         this.name = name;
     }
 }
+const hitesh = new user("hgmail.com", "hiesh"); // here you create a new obj
