@@ -9,6 +9,9 @@ interface user {
     getCoupon(couponName: string, value: number): number
 }
 
+// If you want to add more thing inside the user we can do that in the same user interface but if we want we can do that in another interface with same name user okay. 
+
+// lets see how we can do that // 
 
 let hitesh: user = {dbId: 22, name: "Hc", id: 1, 
     startTrial : () => {
