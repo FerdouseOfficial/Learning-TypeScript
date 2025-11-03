@@ -15,12 +15,19 @@
 // here is the professional way of writing code. How the professional wriet code
 
 class User{
+    private _courseCount = 1;  
+
     private readonly city: string = "Jaipur"
     constructor(
         public email: string,
         public name: string) {
     }
+    get getAppleEmail(): string {
+        return `apple ${this.email}`;
+    }
 } 
+
+
 
 // this is the shortcut way of doing it.......
 
@@ -28,4 +35,19 @@ class User{
 const hitesh = new User("h@ghs", "hitesh")
 // hitesh.city = "delhi"
 
-// we have learned TypeScript PUBLIC AND PRIVATE:- 
+// we have learned TypeScript PUBLIC AND PRIVATE:-  
+
+
+
+
+
+
+// Programming with MOsh getter and setter tutorial. Okay go ahead...
+
+const person = {
+    firstName: "Mosh",
+    lastName: "Hamedani"
+};
+
+console.log(`${person}`);
+
