@@ -14,4 +14,8 @@ type Admin = {
 let hitesh: user | Admin = {name: "hitesh", id: 334}
 hitesh = {userName: "hc", id: 334}
 
-function get
+function getDbId(id : number | string) {
+    if(typeof id === "string") {
+        id.toUpperCase()
+    }
+}
