@@ -9,6 +9,18 @@
 // her eis the example : -
 
 
-let user :[string , number , boolean]
+let user :[string , number , boolean] // remember one thing when you want to access multiple data types inside a tuple don't use or sign (|) use (,) Comman> Okay
 
-user = ["Rozi", 2 , true]
+
+user = ["Rozi", 2 , true] 
+
+let color: [number, number, number];
+color = [32,23,23] // that's how its works
+
+type user= [number, string] 
+
+const newUser: user = [112, "example.@google.com"]
+
+newUser[1] = "hc.com" // this is the bad behavior or the bug of the TypeScript tuple. we can change value inside the tuple. that's the minuse point.
+
+// you can use push() pop() shift() unshift() splice() all the array method in it there will be no problem that's the bug of the tuples. That's the bad side of it . I think you understand it.
