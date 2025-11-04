@@ -24,15 +24,11 @@ class apple extends TakePhoto {
         console.log("Sepia");
     }
 }
-//     getReelTime(): number {
-//         return 1
-//     }
-// }
-let hi = new apple("name", "text"); // here is how you can do that..........s
+const hi = new apple("name", "text"); // here is how you can do that..........s
 // notes of important things:- 
 // class = blueprint for objects.
 // abstract class = blueprint you cannot instantiate directly.
 // extends = inheritance — child gets parent's properties/methods.
 // constructor(...) sets up the object when it's created.
 // public param inside constructor = creates + assigns a property automatically.
-// super(...) = call parent constructor; must be called before this in subclass constructor.
+// super(...) = call parent constructor; must be called before this in subclass constructor 

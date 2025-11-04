@@ -33,8 +33,8 @@ class apple extends TakePhoto {
 //         return 1
 //     }
 // }
-
-let hi = new apple("name", "text") // here is how you can do that..........s
+}
+const hi = new apple("name", "text") // here is how you can do that..........s
 
 
 // notes of important things:- 
@@ -48,4 +48,4 @@ let hi = new apple("name", "text") // here is how you can do that..........s
 
 // public param inside constructor = creates + assigns a property automatically.
 
-// super(...) = call parent constructor; must be called before this in subclass constructor.
+// super(...) = call parent constructor; must be called before this in subclass constructor 
