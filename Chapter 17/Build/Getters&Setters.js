@@ -65,3 +65,7 @@ body.style.backgroundColor = "#000";
 // console.log(a)
 // let b = person.fullName = "Joe Rogan"
 // console.log(b)
+class User {
+    _courseCount = 1;
+    city = "Japipur";
+}

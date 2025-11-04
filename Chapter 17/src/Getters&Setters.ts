@@ -92,3 +92,9 @@ body.style.backgroundColor = "#000"
 
 // let b = person.fullName = "Joe Rogan"
 // console.log(b)
+
+class User {
+    private _courseCount = 1;
+
+    readonly city: string = "Japipur"
+}
