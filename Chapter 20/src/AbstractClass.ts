@@ -6,6 +6,11 @@ abstract    class TakePhoto {
         public cameraModa: string,
         public filter: string
     ){}
+    abstract getSepia(): void
+    // abstract getReelTime(): numbe{
+    //     // some complex calculation
+    //     return 8;
+    // }
 }
 
 // let hi = TakePhoto("name", "t") // we can create any object when the class is an abstract class okay remember it.
@@ -21,7 +26,13 @@ class apple extends TakePhoto {
     ){
         super(cameraMode, filter)
     }
-}
+    getSepia(): void {
+        console.log("Sepia");
+    }
+//     getReelTime(): number {
+//         return 1
+//     }
+// }
 
 let hi = new apple("name", "text") // here is how you can do that..........s
 

@@ -20,7 +20,14 @@ class apple extends TakePhoto {
         this.cameraMode = cameraMode;
         this.filter = filter;
     }
+    getSepia() {
+        console.log("Sepia");
+    }
 }
+//     getReelTime(): number {
+//         return 1
+//     }
+// }
 let hi = new apple("name", "text"); // here is how you can do that..........s
 // notes of important things:- 
 // class = blueprint for objects.
