@@ -33,7 +33,7 @@ class apple extends TakePhoto {
 //         return 1
 //     }
 // }
-}
+} 
 const hi = new apple("name", "text") // here is how you can do that..........s
 
 
