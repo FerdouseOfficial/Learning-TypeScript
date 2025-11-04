@@ -26,3 +26,5 @@ class User {
         this._courseCount = courseNum;
     }
 }
+// we can use Inheritace to create subUser....
+// but we can't access the private value by that. As we already know that by Using Private Keyword we can only access that withing the class. Just like that 
