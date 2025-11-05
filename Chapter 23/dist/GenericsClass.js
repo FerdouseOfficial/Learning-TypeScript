@@ -56,7 +56,7 @@ function anotherFuncctionj(val, val2) {
 }
 anotherFuncctionj(3, 8);
 // this portion of array function I have done this because I am seeing tha tam I able to do tha twith arrow funciton
-// 
+// we will practice with interface 
 let traverse = (val, val2) => {
     return {
         val,
