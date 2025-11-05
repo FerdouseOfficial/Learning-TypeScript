@@ -109,3 +109,27 @@ let traverse = <T, U extends Database>(val: T, val2:U):object => { // learn what
 // one more thing here 
 
 // final practice with Classes 
+
+interface Quiz {
+    name: string,
+    type: string
+}
+interface Course{
+    name: string,
+    Author: string,
+    Subject: string
+}
+
+class Sellable<T>{
+    public cart: T[] = [];
+
+    addToCart(product: T){
+        this.cart.push(product);
+    }
+}
+
+
+
+// paste this code and understand the explanation of the code provided by GPT. and make sure to learn OOPs concepts first okay.
+
+// analyze it okay.

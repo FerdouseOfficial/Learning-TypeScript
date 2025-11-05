@@ -61,6 +61,11 @@ let traverse = (val, val2) => {
         val2
     };
 }; // this is now we write it by the arrow function just like that okay
-// traverse({}) // learn how you will implement or How you will write inside traverse() after extends the traverse type as Database
-// one more thing here 
-// final practice with Classes 
+class Sellable {
+    cart = [];
+    addToCart(product) {
+        this.cart.push(product);
+    }
+}
+// paste this code and understand the explanation of the code provided by GPT. and make sure to learn OOPs concepts first okay.
+// analyze it okay.
