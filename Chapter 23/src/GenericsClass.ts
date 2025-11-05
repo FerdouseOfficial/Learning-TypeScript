@@ -90,14 +90,22 @@ anotherFuncctionj(3, 8 )
 // this portion of array function I have done this because I am seeing tha tam I able to do tha twith arrow funciton
 
 // we will practice with interface 
+interface Database {
+    connection: string,
+    username: string,
+    password: string
+}
 
-let traverse = <T, U>(val: T, val2:U):object => { // learn what is the shortcut way of doing it the syntax the extends
+let traverse = <T, U extends Database>(val: T, val2:U):object => { // learn what is the shortcut way of doing it the syntax the extends
     return{
         val,
         val2
     }
 } // this is now we write it by the arrow function just like that okay
 
-traverse(2, "name")
+// traverse({}) // learn how you will implement or How you will write inside traverse() after extends the traverse type as Database
 
 
+// one more thing here 
+
+// final practice with Classes 
