@@ -39,13 +39,28 @@ function identityFour(val) {
 //     return products
 // }
 // I have face this Issue before And I have chat solution about this with chatGPT make sure to read and check it out okay. bsource desktop account 
-function getSearchProducts(products) {
-    //do some database operations
-    const myIndex = 2;
-    // return products[myIndex] // Now I am just don't write this because its throwing erro on me so I have ignore it for now oka.
-    return products;
+// function getSearchProducts<T>(products: T[]): T{
+//     //do some database operations
+//     const myIndex = 2;
+//     // return products[myIndex] // Now I am just don't write this because its throwing erro on me so I have ignore it for now oka.
+//     return products
+// }
+// const getMoreSearchProducts<T,>(products: T[]): T { // reserach what is the problem here okay. then figure it out
+//     return products
+// }
+function anotherFuncctionj(val, val2) {
+    return {
+        val,
+        val2
+    };
 }
-const getMoreSearchProducts;
-(products) => {
-    return products;
-};
+anotherFuncctionj(3, 8);
+// this portion of array function I have done this because I am seeing tha tam I able to do tha twith arrow funciton
+// 
+let traverse = (val, val2) => {
+    return {
+        val,
+        val2
+    };
+}; // this is now we write it by the arrow function just like that okay
+traverse(2, "name");
